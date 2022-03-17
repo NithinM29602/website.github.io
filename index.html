@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>webpage-1</title>
+</head>
+<style type="text/css">
+	body{
+		background-color: #ffcccc;
+	}
+	.box{
+		width: 1420px;
+		height: 50px;
+		margin: 10px;
+		padding: 16px;
+		line-height: 8px;
+	}
+	.box2{
+		float: left;
+		margin: 20px;
+		padding: 16px;
+	}
+	.button1{
+		float: left;
+		padding: 17px 15px;
+		color: black;
+		font-family: sans-serif;
+		border-radius: 50px 50px 50px 50px;
+		font-size: 30px;
+	}
+	.button{
+		float: right;
+		padding: 15px 15px;
+		background-color: black;
+		color: white;
+		font-family: sans-serif;
+		border-radius: 50px 50px 50px 50px;
+	}
+	.space{
+		float: right;
+		padding: 18px;
+	}
+	.button2{
+		float: right;
+		padding: 13px 13px;
+		border-color: black;
+		color: solid black;
+		font-family: sans-serif;
+		border-radius: 50px 50px 50px 50px;
+		border-style: solid;
+	}
+	a{
+		text-decoration: none;
+	}
+	
+</style>
+<script type="text/javascript">
+
+	function seriadvspo(){
+		var x = document.getElementById("seriadvspo");
+		if(x.innerHTML == "serious adventure sport"){
+			x.innerHTML = "<b>unusual and exciting experience (which involves high risks)</b>";
+		}
+		else
+		{
+			x.innerHTML = "serious adventure sport";
+		}
+	}
+
+	function embarking(){
+		var x = document.getElementById("embarking");
+		if(x.innerHTML == "embarking"){
+			x.innerHTML = "<b> beggining </b>";
+		}
+		else
+		{
+			x.innerHTML = "embarking";
+		}
+	}
+
+	function scalapeak(){
+		var x = document.getElementById("scalapeak");
+		if(x.innerHTML == "on scaling a peak"){
+			x.innerHTML = "<b>to climb the mountain</b>";
+		}
+		else
+		{
+			x.innerHTML = "on scaling a peak";
+		}
+	}
+
+	function acclimatization(){
+		var x = document.getElementById("acclimatization");
+		if(x.innerHTML == "acclimatization"){
+			x.innerHTML = "<b> adjusting </b>";
+		}
+		else
+		{
+			x.innerHTML = "acclimatization";
+		}
+	}
+
+	function tote(){
+		var x = document.getElementById("tote");
+		if(x.innerHTML == "tote"){
+			x.innerHTML = "<b>carry out</b>";
+		}
+		else
+		{
+			x.innerHTML = "tote";
+		}
+	}
+
+	function vital(){
+		var x = document.getElementById("vital");
+		if(x.innerHTML == "vital"){
+			x.innerHTML = "<b>very important</b>";
+		}
+		else
+		{
+			x.innerHTML = "vital";
+		}
+	}
+
+	function exhilaration(){
+		var x = document.getElementById("exhilaration");
+		if(x.innerHTML == "exhilaration"){
+			x.innerHTML = "<b>happiness</b>";
+		}
+		else
+		{
+			x.innerHTML = "exhilaration";
+		}
+	}
+
+	function dec(){
+
+	}
+</script>
+<body>
+	<div class="box">
+		<div class="space"> </div>
+		<strong class="button2">Login</strong>
+		<div class="space"> </div>
+		<span class="button">Contact</span>
+		<div class="space"> </div>
+		<span class="button">About us</span>
+		<div class="space"> </div>	
+
+		<a href="https://pages.github.com/" class="button">
+			<span>Home</span>
+		</a>
+
+		<span class="button1">website</span>
+	</div>
+	<br><br><br>
+		<div class="box2">
+			<h1>Mountain Climbing</h1>
+		</div>
+		<div>
+			<p class="box2" style="font-size:25px; font-family: sans-serif; word-spacing: 1px;"><a>Mountain climbing is a <a id="seriadvspo" onclick="seriadvspo()" style="cursor: pointer;">serious adventure sport</a>. A mountain climber, in mountains like the Himalayas and the alps, has to make a lot of preparations before <a id="embarking" onclick="embarking()" style="cursor: pointer;">embarking</a> <a id="scalapeak" onclick="scalapeak()" style="cursor: pointer;">on scaling a peak</a>. Improving one's physical fitness level and stamina build up is essential. Also, <a id="acclimatization" onclick="acclimatization()" style="cursor: pointer;">acclimatization</a> to the atmosphere at high altitudes is to be carried out. Normally, the base camps provide the initial training and conditioning for this. the climbers have to carry food, necessary equipment's like pickaxes, ropes, warm clothing, flares, etc. along with oxygen cylinders on their way up. Sherpas (Nepali ethnic groups) and helpers may bring along some of the items only up to a certain point, beyond which the climbers have to <a id="tote" onclick="tote()" style="cursor: pointer;">tote</a> all that weight on their own, which calls for a lot of physical strength, stamina, will power, courage and determination. A 'never say die' attitude and team spirit are also <a id="vital" onclick="vital()" style="cursor: pointer;">vital</a>. All the hard work is worthwhile, for the feeling of <a id="exhilaration" onclick="exhilaration()" style="cursor: pointer;">exhilaration</a> one experiences when one is on the peak is beyond description.</a></p>
+		</div>
+
+</body>
+</html>
